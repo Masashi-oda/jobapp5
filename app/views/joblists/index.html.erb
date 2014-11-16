@@ -12,32 +12,6 @@
     <% @joblists.each do |joblist| %>
       <tr>
         <td><%= link_to joblist.company, joblist_path(joblist.id) %></td>
-        <td><%= joblist.data1 %></td>
-        <td><%= joblist.data2 %></td>
-        <td><%= joblist.data3 %></td>
-        <td><%= joblist.data4 %></td>
-        <td><%= joblist.data5 %></td>
-        <td><%= joblist.data6 %></td>
-        <td><%= joblist.data7 %></td>
-        <td><%= joblist.data8 %></td>
-        <td><%= joblist.data9 %></td>
-        <td><%= joblist.data10 %></td>
-        <td><%= joblist.data11 %></td>
-        <td><%= joblist.data12 %></td>
-        <td><%= joblist.data13 %></td>
-        <td><%= joblist.data14 %></td>
-        <td><%= joblist.data15 %></td>
-        <td><%= joblist.data16 %></td>
-        <td><%= joblist.data17 %></td>
-        <td><%= joblist.data18 %></td>
-        <td><%= joblist.data19 %></td>
-        <td><%= joblist.data20 %></td>
-        <td><%= joblist.data21 %></td>
-        <td><%= joblist.data22 %></td>
-        <td><%= joblist.data23 %></td>
-        <td><%= joblist.data24 %></td>
-        <td><%= joblist.data25 %></td>
-        <td><%= joblist.data26 %></td>
         <td><%= link_to 'Edit', edit_joblist_path(joblist) %></td>
         <td><%= link_to 'Destroy', joblist, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
