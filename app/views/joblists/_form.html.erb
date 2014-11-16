@@ -1,0 +1,125 @@
+<%= form_for(@joblist) do |f| %>
+  <% if @joblist.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@joblist.errors.count, "error") %> prohibited this joblist from being saved:</h2>
+
+      <ul>
+      <% @joblist.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :company %><br>
+    <%= f.text_field :company %>
+  </div>
+  <div class="field">
+    <%= f.label :data1 %><br>
+    <%= f.text_area :data1 %>
+  </div>
+  <div class="field">
+    <%= f.label :data2 %><br>
+    <%= f.text_area :data2 %>
+  </div>
+  <div class="field">
+    <%= f.label :data3 %><br>
+    <%= f.text_area :data3 %>
+  </div>
+  <div class="field">
+    <%= f.label :data4 %><br>
+    <%= f.text_area :data4 %>
+  </div>
+  <div class="field">
+    <%= f.label :data5 %><br>
+    <%= f.text_area :data5 %>
+  </div>
+  <div class="field">
+    <%= f.label :data6 %><br>
+    <%= f.text_area :data6 %>
+  </div>
+  <div class="field">
+    <%= f.label :data7 %><br>
+    <%= f.text_area :data7 %>
+  </div>
+  <div class="field">
+    <%= f.label :data8 %><br>
+    <%= f.text_area :data8 %>
+  </div>
+  <div class="field">
+    <%= f.label :data9 %><br>
+    <%= f.text_area :data9 %>
+  </div>
+  <div class="field">
+    <%= f.label :data10 %><br>
+    <%= f.text_area :data10 %>
+  </div>
+  <div class="field">
+    <%= f.label :data11 %><br>
+    <%= f.text_area :data11 %>
+  </div>
+  <div class="field">
+    <%= f.label :data12 %><br>
+    <%= f.text_area :data12 %>
+  </div>
+  <div class="field">
+    <%= f.label :data13 %><br>
+    <%= f.text_area :data13 %>
+  </div>
+  <div class="field">
+    <%= f.label :data14 %><br>
+    <%= f.text_area :data14 %>
+  </div>
+  <div class="field">
+    <%= f.label :data15 %><br>
+    <%= f.text_area :data15 %>
+  </div>
+  <div class="field">
+    <%= f.label :data16 %><br>
+    <%= f.text_area :data16 %>
+  </div>
+  <div class="field">
+    <%= f.label :data17 %><br>
+    <%= f.text_area :data17 %>
+  </div>
+  <div class="field">
+    <%= f.label :data18 %><br>
+    <%= f.text_area :data18 %>
+  </div>
+  <div class="field">
+    <%= f.label :data19 %><br>
+    <%= f.text_area :data19 %>
+  </div>
+  <div class="field">
+    <%= f.label :data20 %><br>
+    <%= f.text_area :data20 %>
+  </div>
+  <div class="field">
+    <%= f.label :data21 %><br>
+    <%= f.text_area :data21 %>
+  </div>
+  <div class="field">
+    <%= f.label :data22 %><br>
+    <%= f.text_area :data22 %>
+  </div>
+  <div class="field">
+    <%= f.label :data23 %><br>
+    <%= f.text_area :data23 %>
+  </div>
+  <div class="field">
+    <%= f.label :data24 %><br>
+    <%= f.text_area :data24 %>
+  </div>
+  <div class="field">
+    <%= f.label :data25 %><br>
+    <%= f.text_area :data25 %>
+  </div>
+  <div class="field">
+    <%= f.label :data26 %><br>
+    <%= f.text_area :data26 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

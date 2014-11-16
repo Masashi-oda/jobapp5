@@ -1,0 +1,59 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: MyString
+  data1: MyText
+  data2: MyText
+  data3: MyText
+  data4: MyText
+  data5: MyText
+  data6: MyText
+  data7: MyText
+  data8: MyText
+  data9: MyText
+  data10: MyText
+  data11: MyText
+  data12: MyText
+  data13: MyText
+  data14: MyText
+  data15: MyText
+  data16: MyText
+  data17: MyText
+  data18: MyText
+  data19: MyText
+  data20: MyText
+  data21: MyText
+  data22: MyText
+  data23: MyText
+  data24: MyText
+  data25: MyText
+  data26: MyText
+
+two:
+  company: MyString
+  data1: MyText
+  data2: MyText
+  data3: MyText
+  data4: MyText
+  data5: MyText
+  data6: MyText
+  data7: MyText
+  data8: MyText
+  data9: MyText
+  data10: MyText
+  data11: MyText
+  data12: MyText
+  data13: MyText
+  data14: MyText
+  data15: MyText
+  data16: MyText
+  data17: MyText
+  data18: MyText
+  data19: MyText
+  data20: MyText
+  data21: MyText
+  data22: MyText
+  data23: MyText
+  data24: MyText
+  data25: MyText
+  data26: MyText
