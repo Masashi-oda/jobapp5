@@ -1,9 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>企業名:</strong>
+<h1>
   <%= @joblist.company %>
-</p>
+</h1>
+
+<h2>会社概要</h2>
 
 <p>
   <strong>設立年:</strong>
@@ -60,6 +61,7 @@
   <%= @joblist.data11 %>
 </p>
 
+<h2>社員インタビュー</h2>
 <p>
   <strong>インタビュー者名:</strong>
   <%= @joblist.data12 %>
@@ -89,6 +91,8 @@
   <strong>月平均残業時間:</strong>
   <%= @joblist.data17 %>
 </p>
+
+<h2>代表者からのメッセージ</h2>
 
 <p>
   <strong>当社の強み:</strong>
@@ -134,6 +138,7 @@
   <strong>こんな感じの人事でした:</strong>
   <%= @joblist.data26 %>
 </p>
-
+<!--
 <%= link_to 'Edit', edit_joblist_path(@joblist) %> |
 <%= link_to 'Back', joblists_path %>
+-->
